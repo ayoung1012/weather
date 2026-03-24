@@ -40,13 +40,13 @@
 2. 게임 요소를 결합해 재방문율을 높였습니다.
 3. 레트로 감성의 픽셀 아트와 할머니 페르소나를 통해 친근한 이미지를 형성했습니다.
 
-src /
- ㅏweatherApp/
-    ㅏredux/
-    ㅏweather/
-    ㅏGame/
-    ㅏTelling/
-    ㅏLetter/
-    ㅏFooterBtn/
- ㅏfonts/
- ㅏassets/
+src/
+ ├── weatherApp/    
+ │    ├── redux/     
+ │    ├── weather/   
+ │    ├── Game/      
+ │    ├── Telling/   
+ │    ├── Letter/    
+ │    └── FooterBtn/ 
+ ├── fonts/         
+ └── assets/        
