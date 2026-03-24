@@ -1,25 +1,30 @@
-기획 의도
-단순한 정보 전달을 넘어 사용자에게 정서적인 유대감과 시각적 즐거움을 주는 것을 목표로 했습니다. 
+<h1>날씨 앱</h1>
+
+
+<img width="4500" height="3000" alt="Image" src="https://github.com/user-attachments/assets/41193499-495d-4a53-bb7a-6a25c1a61920" />
+
+
+<h3>기획 의도</h3>
+단순한 정보 전달을 넘어 사용자에게 정서적인 유대감과 시각적 즐거움을 주는 것을 목표로 했습니다.
+
 - Target: 매일 반복되는날씨 확인이 지루하고 독특하고 재미있는 UIUX를 선호하는 젊은세대
-- concept : 픽셀 아트 기반의 레트로 감성
+- 컨셉: 픽셀 아트 기반의 레트로 감성
 - core Value
   - 편리함 : 위치 기반으로 실시간 데이터로 필요한 정보를 제공합니다.
   - 즐거움 : 앱 접속 시 '장독대 닫기' 미니게임을 통해 소소한 재미로 채웠습니다.
   - 독특함 : 할머니의 따듯한 말투로 전해 듣는 '오늘의 운세'로 기분 좋은 하루의 시작을 제안합니다.
 
-  사용한 툴 & 핵심 기술
-  state
-   - 스택 : Redux Toolkit
-   - 구현 내용 : 날씨 정보, 게임 점수, 운세 데이터를 중앙에서 관리하여 컴포넌트 간 데이터 동기화를 최적화했습니다.      
-  Logic
-   - 스택 : React Hook
-   - 구현 내용 : useEffect와 useState를 활용해 API 통신 및 실시간 상태 업데이트 로직을 효율적으로 분리했습니다.
-  Visual
-   - 스택 : CSS Grid & Flex
-   - 구현 내용 : 레트로 스타일의 레이아웃을 반응형으로 구현하여 다양한 기기에서 최적화된 뷰를 제공합니다.
-  Data
-   - 스택 : OpenWeatherMap
-   - 구현 내용 : 위도/경도 기반의 정밀한 기상 데이터를 수집하고 사용자가 이해하기 쉬운 정보로 가공했습니다.
+  <h3>사용한 툴 & 핵심 기술</h3>
+  state (Redux Toolkit)
+  Logic (React Hook)
+  Visual (CSS Grid & Flex)
+  API (OpenWeatherMap)
+
+
+  - state (Redux Toolkit)
+  - Logic (React Hook)
+  - Visual (CSS Grid & Flex)
+  - API (OpenWeatherMap)
 
 
 주요 기능
